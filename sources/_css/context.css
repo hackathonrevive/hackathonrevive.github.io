@@ -1,0 +1,333 @@
+body {
+	font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+	color: #484848;
+}
+
+
+/*
+*
+* DEFAULT ELEMENTS
+*
+*/
+
+
+.logo {
+    display: block;
+    padding-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #6d24f2;
+    text-transform: uppercase;
+}
+
+.btn-secondary {
+    background-color: #63de38;
+}
+
+.wrap-content {
+    margin: 0 auto;
+    position: relative;
+}
+
+.full-height {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title-bar {
+    text-align: center;
+    background-color: #6d24f2;
+}
+
+
+.title-bar .title {
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+}
+
+
+/*
+*
+* HOME PAGE
+*
+*/
+
+
+#home {
+    background-color: #45d2d0;
+}
+
+/*
+*
+* USER PROJECTS PAGE
+*
+*/
+
+
+#userProject {}
+
+#accordion {
+	margin: 20px 0;
+}
+
+.accord-bar {
+    border: solid 1px #ddd;
+    border-bottom: none;
+    width: 100%;
+    height: 6px;
+    background: #63de38;
+    border-top-right-radius: 10px;
+}
+
+.accord-item {
+    margin: 0 0 40px;   
+}
+
+.accord-header {
+    cursor: pointer;
+    background-color: #e3e3e3;
+    height: 74px;
+    border-bottom-right-radius: 10px;
+    margin: 0 0 24px;
+    border: solid 1px #ddd;
+}
+
+.accord-img {
+    border: solid 1px #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    background: #ccc;
+    margin: -20px 0 0 -24px;
+}
+
+.accord-img img {
+    width: 100%;    
+}
+
+.accord-title-project,
+.accord-short-description {
+    float: left;
+    height: 60px;
+    overflow: hidden;
+    padding: 0 10px 0;
+    margin: 6px 0 0;
+}
+
+.accord-title-project {
+    width: 118px;
+    border-right: solid 1px #ccc;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+}
+
+.accord-title-project .title {
+    font-size: 42px;
+    line-height: 26px;
+}
+
+.accord-title-project small {
+    text-transform: uppercase;    
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+.accord-short-description {
+    width: 104px;
+    font-size: 10px;
+}
+
+.accord-short-description strong {
+    font-size: 12px;    
+}
+
+.accord-short-description p {
+    margin: 5px 0;
+}
+
+.requirements-project{
+    margin: 20px 0 0;
+}
+
+.checkbox-wrap {
+    position: relative;
+    top: -8px;
+    border: solid 1px #ddd;
+    width: 24px;
+    height: 24px;
+    display: block;
+    border-radius: 100%;
+    /*background-color: #63de38;*/
+}
+
+.checkbox-wrap.active {
+    background-color: #63de38;
+}
+
+.checkbox-wrap input {
+    visibility: hidden;   
+}
+
+.checkbox-wrap,
+.bar-progress-wrap,
+.checkbox-item-count {
+    display: inline-block;
+}
+
+.list-checkbox {
+    margin: 0 0 20px;    
+}
+
+.list-checkbox li {
+    margin: 0 0 10px;    
+}
+
+.checkbox-item-count {
+    float: right;
+    line-height: 38px;
+}
+
+.title-checkbox {
+    margin: 0 0 5px;
+    font-size: 18px;    
+}
+
+.bar-progress-wrap {
+    border: solid 1px #ddd;
+    width: 235px;
+    height: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bar-progress {
+    width: 100px;
+    height: 38px;
+    display: inline-block;
+    background: #63de38;
+}
+
+.title-background {
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #0ebc99;    
+}
+
+.wrap-button {
+    text-align: center;
+}
+
+.accord-text {
+    display: none;    
+}
+
+.show .accord-text {
+    display: block;    
+}
+
+
+/*
+*
+* PROFILE PAGE
+*
+*/
+
+.profile-name {
+
+}
+
+#profile .page-content {
+    text-align: center;
+}
+
+#profile .header-content {
+    background: #6d24f2;
+    color: #fff;
+    padding: 30px 0px 130px;
+}
+
+#profile .header-content h1 {
+    font-size: 30px;
+}
+
+#profile .profile-image {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -100px;
+}
+
+#profile .profile-image .image-container {
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#profile .profile-image img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+#profile .profile-image .verified {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    background: #4ae5e2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.profile-infos {
+   color: #222; 
+   padding: 50px 0px;
+}
+
+.profile-infos li {
+    margin: 10px 0px;
+}
+
+.profile-infos .fa {
+    margin-right: 5px;
+}
+
+#fullHeightContent {
+    background: url(../_images/footer-image.png) no-repeat center bottom;
+}
+
+#login {
+    max-width: 300px;
+    margin: 0 auto;
+}

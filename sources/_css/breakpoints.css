@@ -1,0 +1,19 @@
+html[breakpoint="xs"] .wrap-content {
+    width: 300px;
+}
+
+html[breakpoint="s"] .wrap-content {
+    width: 300px;
+}
+
+html[breakpoint="m"] .wrap-content {
+    width: 600px;
+} 
+
+html[breakpoint="l"] .wrap-content{
+    width: 960px;
+}
+
+html[breakpoint="xl"] .wrap-content {
+    width: 1260px;
+} 
